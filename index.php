@@ -51,6 +51,10 @@ $tickers = ["TSLA", "COIN", "AMZN", "FB",];
     </style>
 </head>
 <body>
+<form method="get">
+    <input name="search" value=""/>
+    <button type="submit">Submit</button>
+</form>
     <?php foreach ($tickers as $stock): ?>
     <?php $s = $client->quote($stock); ?>
     <main>
