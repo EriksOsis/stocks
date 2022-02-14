@@ -28,7 +28,7 @@ $tickers = ["TSLA", "COIN", "AMZN", "FB",];
     <title>BigMoney</title>
 
     <style>
-        main {
+        body {
             display: flex;
             flex-wrap: wrap;
             text-align: center;
